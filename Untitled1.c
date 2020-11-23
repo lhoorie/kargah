@@ -8,6 +8,12 @@ int main()
 	scanf("%d%c%d",&a,&op,&b);
 	if (op == '+')
 		ans= a+b;
+	if (op== '-')
+		ans=a-b;
+	if (op=='*')
+		ans=a*b;
+	if (op=='/')
+		ans=(double)a/b;
 	printf("%lf\n", ans);
 	return 0;
 }
