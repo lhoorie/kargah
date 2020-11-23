@@ -1,7 +1,13 @@
 #include <stdio.h>
 int main()
 {
-	printf("hello");
-	scanf("%d",&a);
+	int a,b;
+	double ans=0;
+	char op;
+	printf("enter: ");
+	scanf("%d%c%d",&a,&op,&b);
+	if (op == '+')
+		ans= a+b;
+	printf("%lf\n", ans);
 	return 0;
 }
